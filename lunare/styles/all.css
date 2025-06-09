@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --corPrimaria:#000000;
+    --corUm:#FFFFFF;
+    --corDois:#b4b3af;
+    --corTres: #2F2F2F;
+    --corQuatro:#8B8589;
+}
+
+body {
+    font-family:'Open Sans', sans-serif;
+}
+  
+/* Linha preta no topo */
+.linhaPreta{
+    height: 24px;
+    background-color:#000000;
+    width: 100%;
+}
+
+
+/* Cabeçalho branco com conteúdo */
+.cabecalho {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #b4b3af;
+    position: relative;
+  }
+  
+  /* Nome da marca centralizado */
+  .marca {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Ícones alinhados à direita */
+  .icones {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .icone {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
