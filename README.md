@@ -98,8 +98,6 @@ O banco possui as seguintes **tabelas principais**:
 - `carrinho`
 - `pedidos`
 
-*(Recomenda-se incluir o script `.sql` na pasta `/db` para facilitar a instalação.)*
-
 ---
 
 ## 🎯 Objetivos de Aprendizado
